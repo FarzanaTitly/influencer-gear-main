@@ -159,6 +159,40 @@ hr{
     color: rgba(224, 44, 109, 0.87);
     font-size: 15px;
 }
+/* --------------------------------------
+      Featured Products styles
+------------------------------------------ */
+
+.featured-products{
+    width: 1110px;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 106px;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+.feature-banner{
+    width: 404px;
+    height: 270px;
+    border-radius: 7px;
+}
+.feature-info{
+    padding-left: 96px;
+}
+.feature-info h1{
+    font-size: 38px;
+    color: #0A0826;
+}
+.feature-info p{
+    font-size: 16px;
+    line-height: 28px;
+    /* text-align: justify; */
+    width: 501px;
+    color: #6C6C6C;
+    
+}
 
 /* --------------------------------------
        Footer part

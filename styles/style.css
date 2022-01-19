@@ -1,0 +1,155 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Common Styles */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+}
+
+
+/*------- Header styles--------- */
+
+header{
+    display: flex;
+    justify-content: space-between; 
+    /* might use space-around */
+}
+.title{
+    font-size: 24px;
+    margin-top: 87px;
+    margin-left: 120px;
+    margin-bottom: 133px;
+}
+nav{
+    margin-top: 95px;
+    margin-right: 120px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 16px;    
+    padding-right: 15px;
+}
+
+/*-------------- Main styles start --------- */
+
+/* --------------------------------------
+        Influencer Style Part
+------------------------------------------ */
+.influencer{
+    display: flex;  
+    justify-content: space-between;      
+}
+.influencer-info{
+    margin-left: 120px;
+    top: 295px;
+}
+.influencer-info h1{
+    font-size: 52px;
+    width: 60%;
+}
+.influencer-info p {
+    width: 60%;
+ } 
+.influencer-info .pre-book{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+ }  
+.pre-book a{   
+    text-decoration: none;
+    color:white ;
+    background: #E02C6D;
+    align-items: center;
+    border-radius: 41px;
+    padding: 10px 24px;
+    border: 1px solid white;
+}
+.main-camera{
+    margin-right: 135px;
+}
+.main-camera:hover img{
+    width: 440px;
+    height: 414px;
+    transform:scale(1.1,1.1);
+    transition: transform 1.5s ease-in-out;
+}
+
+/* --------------------------------------
+        Logo Showcase Style Part
+------------------------------------------ */
+.hr-margin-top{
+    margin-top: 100px;    
+}
+.hr-margin-bottom{
+    margin-bottom: 100px;
+}
+hr{
+    margin: 0px 165px;
+}
+.logos{
+    margin: 0px 227px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+
+/* --------------------------------------
+       Popular Collection part
+------------------------------------------ */
+
+.popular-collection-container{
+    margin: 0px 196px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.collection{
+    display: grid;
+    justify-content: center;
+    /* width: 329px;
+    height: 476px; */
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px; 
+}
+
+.popular-collection-container h1{
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center ;
+}
+.collection img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.collection-info{
+   
+}
+.collection-info h3{
+    font-size: 28px;
+}
+.collection-info h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.collection-info p{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #787885; 
+}
+.fa-star.filled{
+    color: #FB8200;
+}
+.fa-star.empty{
+         color: #aeaeae;
+}
+
